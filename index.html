@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAVASCRIPTGODLEWSKI</title>
+    <link rel ="stylesheet" href="css/layout.css">
+</head>
+<body>
+    <nav>
+        <div>
+            <h1>Paragon dla Politechniki</h1>
+            <h4>Można dodawać, usuwać i edytować. Suma jest zliczana prawidłowo. Dane przechowywane są w localstorage. Nie wykonałem przesuwania. ID jest aktualizowane dynamicznie.
+            </h4>
+        </div>
+    </nav>
+    <br><br>
+    <section >
+        <div class = "shadowbox">
+            <div>
+                <div>
+                    <form class = "validate" autocomplete="off">
+                        <div class="row">
+                            <div>
+                                <input type="text" class="validate" id="produkt" placeholder="nazwa">
+                                <label for="produkt">nazwa</label>
+                            </div>
+                            <div>
+                                <input type="text" class="validate" id="cena" placeholder="ilość" onkeypress="return onlyNumberKey(event)">
+                                <label for="cena">ilość</label>
+                            </div>
+                            <div>
+                                <input type="text" class="validate" id="ilosc" placeholder="cena" onkeypress="return onlyNumberKey(event)">
+                                <label for="ilosc">cena</label>
+                            </div>
+                        </div>
+                        <br>
+                        <button  id="sub-btn" type="dodaj" name="action">Dodaj</i></button>
+                        <br><br>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div id="toast" class = "shadowbox"></div>
+        <div>
+            <div class="row">
+                <table >
+                    <thead class = "lp">
+                        <tr class = "header">
+                            <th>#</th>
+                            <th>Nazwa</th>
+                            <th>Ilosc</th>
+                            <th>Cena</th>
+                            <th>Suma</th>
+                            <th>Edytuj</th>
+                            <th>Usuń</th>
+                        </tr>
+                    </thead>
+                    <tbody class = "lp" id="formData"></tbody>
+                    <tr>            
+                    </tr>
+                    <tr>
+                        <td colspan="4" class="razem">RAZEM</td>
+                        <td id ="razem" class="razem"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="js/script.js"></script>
+</html>

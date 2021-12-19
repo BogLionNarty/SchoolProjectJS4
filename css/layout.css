@@ -1,0 +1,79 @@
+body {
+    color: #001028;
+    background: #FFFFFF; 
+    font-family: Arial, sans-serif; 
+    font-size: 12px; 
+    font-family: Arial;
+    max-width: 600px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  
+  .shadowbox {
+    width: 15em;
+    padding: 10px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .fa-edit:before {
+    content: "\f044"; }
+  
+.fa-trash:before {
+    content: "\f1f8"; }
+  
+  .fa-trash-alt:before {
+    content: "\f2ed"; }
+  
+  .fa-trash-restore:before {
+    content: "\f829"; }
+  
+  .fa-trash-restore-alt:before {
+    content: "\f82a"; }
+  h1 {
+    border-top: 1px solid  #5D6975;
+    border-bottom: 1px solid  #5D6975;
+    color: #5D6975;
+    font-size: 2.4em;
+    line-height: 1.4em;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 0;
+  }
+
+   table, th, td {
+    border: 1px solid black;
+    background: #F5F5F5;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+    border-spacing: 0;
+    margin-bottom: 20px;
+    margin-left:auto;
+    margin-right:auto;
+    
+  } 
+
+  input[type=text] {
+
+    padding: 5px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .far {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 400; }
+  @font-face {
+    font-family: 'Font Awesome 5 Free';
+    font-style: normal;
+    font-weight: 900;
+    font-display: block;
+    src: url("../webfonts/fa-solid-900.eot");
+    src: url("../webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-solid-900.woff2") format("woff2"), url("../webfonts/fa-solid-900.woff") format("woff"), url("../webfonts/fa-solid-900.ttf") format("truetype"), url("../webfonts/fa-solid-900.svg#fontawesome") format("svg"); }
+  
+  .fa,
+  .fas {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900; }
+  
